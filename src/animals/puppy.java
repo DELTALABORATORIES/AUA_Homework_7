@@ -1,0 +1,18 @@
+package animals;
+
+public class puppy {
+
+    private String name;
+
+    public puppy(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
